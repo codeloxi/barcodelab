@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16C3D5542113BF8C00E0C753 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16C3D5532113BF8C00E0C753 /* main.cpp */; };
+		16C3D55B2113C19100E0C753 /* ZipCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16C3D55A2113C19100E0C753 /* ZipCode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		16C3D5502113BF8C00E0C753 /* barcodeLab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = barcodeLab; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C3D5532113BF8C00E0C753 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		16C3D55A2113C19100E0C753 /* ZipCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZipCode.cpp; sourceTree = "<group>"; };
+		16C3D55C2113C1A000E0C753 /* ZipCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipCode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				16C3D5532113BF8C00E0C753 /* main.cpp */,
+				16C3D55A2113C19100E0C753 /* ZipCode.cpp */,
+				16C3D55C2113C1A000E0C753 /* ZipCode.h */,
 			);
 			path = barcodeLab;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C3D55B2113C19100E0C753 /* ZipCode.cpp in Sources */,
 				16C3D5542113BF8C00E0C753 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
